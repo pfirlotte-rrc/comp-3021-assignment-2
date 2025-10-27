@@ -1,8 +1,12 @@
 # comp-3021-assignment-2
 
+Unfortunately Only bandit appears to catch any errors, Super-Lint does not provide any feedback.
+It also appears to only have caught issues with the python file and not the Typescript file.
+
 ## Do these results match what you found in your previous peer review?
 
-The results match slightly, the services caught the same Injection vectors but differed in a URL issues.
+The Bandit results match slightly, the services caught the same Injection vectors but differed in a URL issues.
+It is also missing at least 2 other errors outside of the possible injection/permission issues. 
 
 ## Do you think they caught all the vulnerabilities present in the code?
 
